@@ -1,0 +1,349 @@
+.header{
+    height: 10rem;
+    position: sticky;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid white;
+    box-shadow: 0px 5px 5px -5px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+
+.header__logo-box{
+    object-fit: cover;
+    width: 28rem;
+    height: 6.1rem;
+    /* margin-left: 15.2rem ; */
+    /* margin-top: 2.6rem; */
+}
+.header__logo{
+    width: 100%;
+    height: 100%;    
+}
+
+@media (min-width:300px) and (max-width:430px){
+    .header__logo-box{
+        width: 150px;
+        height: 40px;
+    }
+    .body__hero-content-sidra{
+        >span{
+            font-size: 2.1rem !important;
+            line-height: 2.4rem !important;
+        }    
+    }
+    .body__hero-content-add{
+        margin: 0 25px !important;
+        >span{          
+            font-size: 3.7rem !important;
+            line-height: 4rem !important;           
+        }
+    }
+    .body__hero-content-button{
+                    margin: 0 !important;
+        
+            width: 23.2rem !important;
+            height: 5rem !important;
+            font-size: 1.6rem !important;     
+
+            >img{
+                width: 2.6rem !important;            
+            }  
+}
+
+    .body__hero-content-short{
+        margin: 0 39px !important;
+        padding-top: 20px !important;
+        >span{
+            font-size: 1.6rem !important;
+            line-height: 2.4rem !important;
+            letter-spacing: 0 !important;
+        }
+        }
+    .registernow__content-box{
+        line-height: 4rem !important;
+        font-size: 3rem !important;
+        font-weight: 400;
+        font-family: 'Inter', sans-serif;
+        color: white;
+        margin-bottom: 22px;        
+}
+        .body__hero-content-img{
+            width: 28rem !important;
+            height: 45rem !important;
+            >img{
+                margin-left: 15px;
+            }    
+        }
+    .policy{    
+        font-size: 1.4rem !important;    
+    }
+    .fb_title{
+        font-size: 2.6rem !important;
+    }
+}
+
+
+.header__nav-content {
+    /* height: 2.1rem; */
+    /* margin-top: 3.7rem; */
+        >span{
+        font-size: 1.8rem;
+        color:#1F72B1;
+    }
+}
+.header__navregister-button{
+    width: 15.2rem;
+    height: 5.6rem;
+    border-radius: 0.4rem;
+    font-size: 1.8rem;
+    background-color:  #1F72B1 !important;
+}
+
+
+@media (min-width:576px) and (max-width:768px){
+    .header__nav-content {
+        /* height: 2.1rem; */
+        /* margin-top: 3.7rem; */
+            >span{
+            font-size: 1.6rem;
+            color:#1F72B1;    
+        }
+    }    
+    .header__navregister-button{
+        width: 11.2rem;
+        height: 3.6rem;
+        border-radius: 0.4rem;
+        font-size: 1.6rem;
+        background-color:  #1F72B1 !important;
+    }    
+}
+.dropdown-toggle{
+    background-color: transparent !important;
+    border: none !important;
+    padding-top: 19px !important;
+    padding-right: 19px !important;
+}
+.dropdown-menu{
+    min-width: 20rem;
+    li{
+        font-size: 2rem;
+        border-bottom: 1px solid silver;
+    }
+}
+/* heading ad ad part  end*/
+
+
+/* Body hero part start */
+.body__hero{
+    /* height: 77vh; */
+    background: linear-gradient(359.72deg, #0F62A0 -9.46%, #2E8BCA 42.28%, #39C2E0 96.25%);  
+}
+.body__hero-content-sidra{
+    >span{
+        font-family: 'Inter', sans-serif;
+        font-size: 2.4rem;
+        line-height: 2.4rem;
+        font-weight: 400;
+        letter-spacing: 1px;
+        color: white;
+    }
+}
+.body__hero-content-add{
+    object-fit: cover;
+    overflow: hidden;
+    >span{
+        font-family: 'Inter', sans-serif;
+        font-size: 6.1rem;
+        line-height: 7rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+        color: white;
+    }
+}
+.body__hero-content-short{
+            /* margin-top: 2.5rem; */
+    >span{
+       
+        font-size: 1.8rem;
+        line-height: 3.2rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+        color: white;
+    }
+}
+.body__hero-content-button{
+        /* margin-top: 8rem; */        
+            width: 30.2rem;
+            height: 5.6rem;
+            font-size: 1.8rem;
+            color: #1F72B1;
+            >img{
+                width: 4.1rem;
+                margin-left: 3px;
+                margin-top: 2px;
+            } 
+}
+.body__hero-content-img{
+        /* margin-left: 58px; */
+        object-fit: cover;
+        overflow: hidden;
+        width: 54rem;
+        height: 60rem;                
+        >img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+@media (min-width:200px) and (max-width:992px){
+    .body__hero-content-img{
+        margin-left: 0;
+    }
+}
+
+/* Features and benefits start */
+.fb_title{
+    font-family: 'Inter', sans-serif;
+    font-size: 3.6rem;
+    font-weight: 600;
+    line-height: 3.4rem
+}
+.fb{
+    background: #DEEAF4;
+    padding-bottom: 58px;
+}
+.fb_content-content{
+    >h2{
+        font-size: 2.2rem;
+        line-height: 2.4rem;
+    }
+    >span{
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        
+    }
+}
+.fb_content-each{
+    background-color: white;
+    border-radius: 16px;
+    max-width: 209px;  
+    cursor: pointer; 
+    transition: all 0.6s ease-in;
+}
+.fb_content-each:hover{
+    scale: 1.02;
+    background-color:  #1F72B1;
+
+    .fb_content-content{
+        color: white;
+    }
+    .fb_content-image{
+        background: white;
+    }
+}
+
+/* @media (min-width:320px) and (max-width:420){
+    .fb_content-each{
+        
+    }
+    
+} */
+
+.fb_content-image{
+    background: linear-gradient(0deg, rgba(31, 114, 177, 0.15), rgba(31, 114, 177, 0.15)),
+    linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 50%;
+    width: 9.4rem;
+    height: 9.4rem;
+    >img{
+        width: 3.4rem;
+        height: 3rem;
+    }
+}
+/* features and benefits end */
+
+/* Register now start */
+.registernow{
+     background: linear-gradient(90.03deg, #C24CB1 -28.82%, #2E8BCA 93.48%, #39C2E0 221.07%);
+     max-width: 100%;
+}
+
+.registernow__content-box{
+    line-height: 5.5rem;
+    font-size: 4rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: white;        
+}
+@media (min-width:768px) and (max-width:992px){
+.registernow__content-box{
+    line-height: 4rem;
+    font-size: 3rem;       
+}
+
+.sendemail-button{
+    width: 13rem !important;
+    height: 3.7rem !important;
+    font-size: 1.6rem !important;
+}
+}
+/* How to sell start */
+.howtosell__content{
+    h5{
+        font-size: 2.2rem;
+        font-weight: 500;
+        line-height: 1.3rem;
+    }
+    span{
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 3.2rem;
+    }
+    h4{
+        font-size: 1.8rem;
+        font-weight: 600;
+        line-height: 3.2rem
+    }    
+}
+.sellimage{
+    object-fit: cover;
+    overflow: hidden;
+    width: 43rem;
+    height: 67rem;
+}
+@media (min-width:200px) and (max-width:460px){
+.sellimage{
+    width: 25rem;
+    height: 37rem;
+}
+}
+/* Footer start */
+.footer{
+    background-color:  #1F72B1;
+}
+.line{
+    border: 1px solid white;
+}
+.sendemail-button{
+    width: 17rem;
+    height: 4.7rem;
+    font-size: 1.6rem;
+    color: #1F72B1;
+    line-height: 1.5rem;
+    font-weight: 600;
+}
+.policy{    
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: white;
+}
+.social__media{
+    width: 3.9rem;
+    height: 3.9rem;border-radius: 50%;
+    background: #064676;
+}
+/* footer end */
+

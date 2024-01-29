@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "sidrateams-72e86",
+    "stagging": "sidrateams-6a267"
+  },
+  "targets": {},
+  "etags": {}
+}
